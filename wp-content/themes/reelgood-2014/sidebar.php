@@ -2,6 +2,8 @@
 
 	<?php include(locate_template('partials/sidebar/search-form.php'));?>
 
+	<?php include(locate_template('partials/sidebar/newsletter-form.php'));?>
+
 	<?php include(locate_template('partials/sidebar/ad-block.php')); ?>
 
 	<?php
