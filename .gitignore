@@ -12,3 +12,7 @@ wp-content/backups/
 sitemap.xml.gz
 wp-config.php
 .DS_Store
+/wp-content/themes/twentyeleven/
+/wp-content/themes/twentyfourteen/
+/wp-content/themes/twentyten/
+/wp-content/w3tc-config/
