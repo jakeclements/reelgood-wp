@@ -1,0 +1,30 @@
+*** Viewport Changelog ***
+
+13 August 2012 - Version 1.0.2
+
+	* style.css - updated version number
+	* functions.php
+		- added archive-thumb image size
+		- removed jQuery Google CDN loading
+
+15 June 2012 - Version 1.0.1
+
+	* style.css 
+		- updated version number
+		- updated menu styles
+	* functions.php - removed jQuery enqueue from Google CDN
+	* header.php - added height/width attributes to default header image tag
+	* post-options.php - added height/width fields for default image
+	* default.po / default.mo - updated with new strings
+	* /framework - ported in new framework
+		- zilla-admin-functions.php
+		- zilla-admin-init.php
+		- zilla-admin-page-options.php
+		- zilla-admin-page-update.php
+		- zilla-theme-functions.php
+		- upload-button.js
+	
+
+6 Jun 2012 - Version 1.0
+
+	First Release

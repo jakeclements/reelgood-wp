@@ -1,0 +1,140 @@
+/* No Fly Styles 
+*
+* FONTS:
+*	"league-gothic"
+*	"adobe-garamond-pro"
+*
+*
+*/
+
+html { 
+  background: url(../img/no-fly/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 16px 0 16px;
+}
+
+.login-request {
+	max-width: 410px;
+	width:100%;
+	margin:0 auto;
+	text-align: left;
+	height: auto;
+	background: rgba(253, 253, 253, 1);
+	position:relative;
+	margin-top: -180px;
+	top:50%;
+	-webkit-box-shadow:  0px 2px 5px 5px rgba(0, 0, 0, .15);
+    box-shadow:  0px 2px 5px 5px rgba(0, 0, 0, .15);
+    -webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	padding: 20px 18px 8px 20px;
+	font-family: adobe-garamond-pro, Georgia, Times New Roman, serif;
+	font-size: 15px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.login-request h1 {
+	font-family: "league-gothic",sans-serif;
+	margin: 0px;
+	margin-bottom: -16px;
+	font-weight: 100;
+	margin-left: -3px;
+	font-size: 45px;
+}
+
+.login-request p.restrict {
+	color: #363636;
+	padding-bottom: 10px;
+	border-bottom: 6px solid #363636;
+}
+
+.login-request p.login-username,
+.login-request p.login-password {
+	width: 50%;
+	float: left;
+	height: 55px;
+	margin-top: -15px;
+	padding-top: 20px;
+	position:relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.login-request p.login-username {
+	padding-right: 6px;
+	border-right: 1px black solid;
+}
+
+.login-request p.login-password {
+	padding-left: 6px;
+}
+
+.login-request p.login-username label,
+.login-request p.login-password label {
+	position:absolute;
+	top: 8px;
+	left: 6px;
+	width: 100%;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-weight: bold;
+}
+
+.login-request p.login-username input,
+.login-request p.login-password input {
+	width: 100%;
+	height: 36px;
+	margin-top: 0px;
+	outline: none;
+	border: none;
+	padding: 0 12px 0 6px;
+	background: none;
+	font-size: 18px;
+	font-style: italic;
+	color: rgba(0, 0, 0, .6);
+	font-family: adobe-garamond-pro, Georgia, Times New Roman, serif-webkit-body;
+}
+
+.login-request p.login-password input {
+	padding-left:0;
+}
+
+.button-primary {
+	width: 100%;
+	height: 40px;
+	outline: none;
+	color: white;
+	border: none;
+	margin-top: -5px;
+	cursor: pointer;
+	font-size: 20px;
+	letter-spacing: .2ex;
+	padding-top: 5px;
+	text-transform: uppercase;
+	font-family: "league-gothic",sans-serif;
+	font-weight: 100;
+	background: rgba(0, 0, 0, 0.6);
+	-webkit-transition:all .25s ease-in-out;  
+  	-moz-transition:all .25s ease-in-out;  
+   	-o-transition:all .25s ease-in-out;  
+   	transition:all .25s ease-in-out;  
+}
+
+.button-primary:hover {
+	background: rgba(0, 0, 0, 1);
+	color: rgba(255, 214, 44, 1);
+}

@@ -1,0 +1,97 @@
+/*--------------------------------------------------------------------------
+*
+*	device.css
+*
+*	This CSS file is loaded in the front-end of the website and continas
+*	CSS for different device widths.
+*
+*	This file is loaded after the main layout.css file so it will 
+*	override styles without the need for !important
+*	
+*-------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------
+*
+*	Supersize and larger
+*	
+*-------------------------------------------------------------------------*/
+
+@media (min-width: 1440px) {
+	
+	
+	
+}
+
+/*--------------------------------------------------------------------------
+*
+*	Body width and smaller
+*	
+*-------------------------------------------------------------------------*/
+
+@media (max-width: 1290px) {
+	
+	.row .row {
+	margin-left: 0.9375em;
+	margin-right: 0.9375em;
+	}
+
+	header.rg-header {
+		padding: 0 1.8em;
+	}	
+	
+	.home-slide {
+		height: 50%;
+	}
+	
+	/* Single Post */
+	.post-content article {
+		padding-left: 70px;
+	}
+	
+	.subnavs ul {
+		padding-left: 1.8em;
+	}
+	
+}
+
+/*--------------------------------------------------------------------------
+*
+*	Tablet and smaller
+*	
+*-------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+	
+	.home-slide {
+		display:none;
+	}
+	
+	.rg-nav {
+		display:none;
+	}
+	
+	/* Single Post */
+	.post-content article {
+		padding-left: 1.8em;
+	}
+	
+	
+	
+}
+
+
+/*--------------------------------------------------------------------------
+*
+*	Phone
+*	
+*-------------------------------------------------------------------------*/
+
+@media (max-width: 480px) {
+	
+	.rg-nav {
+		display:none;
+	}
+	
+	
+}

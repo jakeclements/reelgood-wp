@@ -1,0 +1,240 @@
+/*--------------------------------------------------------------------------
+*
+*	ACTIONABLES
+*
+*-------------------------------------------------------------------------*/
+
+.logo {
+	background-image: $rg-sprite;
+	overflow: hidden;
+	text-indent: -999px;
+	background-repeat: no-repeat;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+	.logo {
+		background-image: $rg-sprite-2;
+		background-size: 500px;
+		background-repeat: no-repeat;
+	}
+
+}
+
+/*--------------------------------------------------------------------------
+*
+*	SLIDERS
+*
+*-------------------------------------------------------------------------*/
+
+.home-slider {
+	height: 340px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.single-slider {
+	margin-bottom: 25px;
+}
+
+.slide__container {
+	width: 100%;
+	min-height: 380px;
+	background-size: cover;
+	position:relative;
+}
+
+.slide__content {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	-webkit-transform: translate(0%,-50%);
+	    -ms-transform: translate(0%,-50%);
+	       	transform: translate(0%,-50%);
+
+	& .post-title {
+		margin-bottom: .4rem;
+	}
+
+	& .post-title a {
+		color: #ffffff;
+		text-decoration: none;
+		padding: 2px 12px;
+		background: rgba(0, 0, 0, .4);
+		display: inline-block;
+		line-height: 1.4em;
+	}
+
+	& .post-title a:hover {
+		color: $rg-yellow;
+	}
+
+	& .slide-meta {
+		float:left;
+		margin-right: 6px;
+	}
+
+}
+
+.flex-direction-nav,
+.flex-control-nav {
+	display: none;
+}
+
+/*--------------------------------------------------------------------------
+*
+*	BUTTONS
+*
+*-------------------------------------------------------------------------*/
+
+.outlined-button {
+	background: rgba(0, 0, 0, 0.4);
+	border: 1px rgba(255, 255, 255, 0.2) solid;
+	color: rgba(255, 255, 255, .8);
+	font-family: $rg-head;
+	display: block;
+	text-align: center;
+	font-size: .75em;
+	font-weight: 300;
+	text-decoration: none;
+	opacity: 1;
+	text-transform: uppercase;
+	line-height: 30px;
+	padding-top: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	min-width: 200px;
+}
+
+/*--------------------------------------------------------------------------
+*
+*	BUTTONS
+*
+*-------------------------------------------------------------------------*/
+
+.home-message {
+	width: 100%;
+	height: 35px;
+	border-top: 1px solid rgba(255, 255, 255, 0.4);
+	background: #1e1e1e;
+	color: rgba(255, 255, 255, .8);
+	line-height: 32px;
+	font-size: 1em;
+
+	& p {
+		font-size: .7em;
+		float: left;
+	}
+
+	& .mailchimp-home {
+		float: left;
+		position:relative;
+		padding-right: 30px;
+
+		& input {
+			height: 22px;
+			outline: none;
+			background: rgba(255, 255, 255, 0);
+			border: 1px solid rgba(255, 255, 255, .3);
+			margin-top: 6px;
+			margin-lefT: 13px;
+			color: rgba(255, 255, 255, .6);
+			font-size: 12px;
+			padding: 0 6px;
+		}
+
+		& input.button {
+			float: left;
+			position: absolute;
+			border: none;
+			top: 6px;
+			right: 0px;
+			padding: 0;
+			margin: 0;
+			background: rgba(255, 255, 255, .4);
+			height: 21px;
+			width: 26px;
+			color: rgba(0, 0, 0, 1);
+			font-size: 16px;
+			content: '';
+			font-family: $rg-icon;
+			transition: $anim-quick;
+			padding-bottom:1px;
+		}
+
+		& input.button:hover {
+			background-color: $rg-yellow;
+		}
+
+		& label {
+			display: none;
+		}
+
+	}
+
+}
+
+/*--------------------------------------------------------------------------
+*
+*	SEARCH
+*
+*-------------------------------------------------------------------------*/
+
+.sidebar-module {
+
+	& .search-bar {
+		border: none;
+		outline: none;
+		height: 45px;
+		position: relative;
+		background: rgba(255, 255, 255, 0.8);
+		font-size: 14px;
+		font-style: italic;
+		color: rgba(0, 0, 0, 0.2);
+		font-family: adobe-garamond-pro, Georgia, Times New Roman, serif-webkit-body;
+		padding-right: 53px;
+		padding-top: 5px;
+		padding-bottom: 3px;
+		padding-left: 12px;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		margin-bottom: 0;
+		width: 100%;
+
+		&:active,
+		&:focus {
+			color: rgba(0, 0, 0, 0.6);
+		}
+
+	}
+
+	& .search-icon {
+		width: 35px;
+		height: 35px;
+		position: absolute;
+		right: 20px;
+		top: 5px;
+		display: block;
+		outline: none;
+		background: rgba(0, 0, 0, 0);
+		border: 1px solid rgba(0, 0, 0, .5);
+		cursor: pointer;
+		color: rgba(0, 0, 0, 1);
+		font-family: FontAwesome;
+		font-size: 0.7em;
+		transition: $anim-quick;
+
+		&:hover {
+			background: rgba(0, 0, 0, .8);
+			color: rgba(255, 214, 44, 1);
+		}
+
+	}
+
+}

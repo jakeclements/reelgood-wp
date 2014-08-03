@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    STYLE.CSS
+\*------------------------------------*/
+/**
+ *
+ * sass --watch style.scss:style.min.css --style compressed
+ *
+ * Here we pull in some variables, include the inuit.css framework, then add our
+ * project-specific components afterwards.
+ */
+
+
+/**
+ * Setup
+ */
+@import "vars";
+@import "inuit.css/inuit";
+@import "reelgood.css/_grid";
+@import "reelgood.css/_flexslider";
+
+
+/**
+ * She’s all yours, cap’n... Begin importing your stuff here.
+ */
+@import "reelgood.css/global";
+@import "reelgood.css/actionables";
+@import "reelgood.css/header";
+@import "reelgood.css/footer";
+@import "reelgood.css/post-layout";
+@import "reelgood.css/device";

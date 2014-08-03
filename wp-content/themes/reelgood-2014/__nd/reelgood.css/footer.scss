@@ -1,0 +1,72 @@
+/*--------------------------------------------------------------------------
+*
+*	FOOTER.SCSS
+*
+*-------------------------------------------------------------------------*/
+
+.rg-footer {
+	height: 155px;
+	width: 100%;
+	background: #050505;
+	padding: 0px;
+	padding-top: 35px;
+}
+
+.rg-footer__social {
+	font-family: $rg-icon;
+
+	& ul {
+
+		float: right;
+		width: auto;
+
+	}
+
+	& li {
+		float: left;
+		list-style: none;
+		margin-right: 10px;
+		font-size: 20px;
+		width: 25px;
+		height: 25px;
+		background: rgba(255, 255, 255, .8);
+
+		& a {
+			color: #000000;
+			font-size: 20px;
+			text-decoration: none;
+			display: block;
+		}
+
+		& .twitter {
+			margin-left: 3px;
+			margin-top: 3px;
+		}
+
+		& .facebook {
+			margin-left: 8px;
+			margin-top: 3px;
+		}
+
+		& .insta {
+			margin-left: 3px;
+			margin-top: 3px;
+		}
+
+		& .vimeo {
+			margin-left: 4px;
+			margin-top: 3px;
+		}
+
+		&:hover {
+			background: $rg-yellow;
+			transition: $anim-quick;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+	}
+
+}
