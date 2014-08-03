@@ -1,0 +1,39 @@
+.video_meta_control {
+width: 45%;
+float: left;
+}
+
+.right-box { margin-left: 5%; }
+
+.video_meta_control .description
+{ display:none; }
+ 
+.video_meta_control label
+{ display:block; font-weight:bold; margin-left:3px; margin-bottom:0; margin-top:12px; }
+ 
+.video_meta_control label span
+{ display:inline; font-weight:normal; }
+ 
+.video_meta_control span
+{ color:#999; display:block; margin-left:3px; }
+ 
+.video_meta_control textarea, .video_meta_control input[type='text']
+{ margin-bottom:3px; width:99%; }
+ 
+.video_meta_control h4
+{ color:#999; font-size:1em; margin:15px 6px; text-transform:uppercase; }
+
+.seperator {
+	clear: both;
+	height: 0;
+}
+
+
+.donate {
+width: 20%; float: right;
+clear: right;
+margin-top: 50px;
+padding: 0.5em 0 1em 2em;
+background:#ececec;
+border: solid 1px #ccc;
+}
