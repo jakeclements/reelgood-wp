@@ -234,7 +234,7 @@ function catch_first_image($id) {
 
   if(empty($first_img)){ //Defines a default image
 
-    $first_img = "http://www.reelgood.com.au/wp-content/uploads/2014/03/vampire-academy-reelgood-300x199.jpg";
+    $first_img = "http://placehold.it/315x170&text=REEL+GOOD";
 
   }
 
