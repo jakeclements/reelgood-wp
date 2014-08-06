@@ -120,3 +120,36 @@ h5 {
 	position: relative;
 	top: 0px;
 }
+
+.mc-sidebar {
+    top: -40px;
+    width: auto;
+    height: 35px;
+    position: relative;
+    display: block;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgba(0,0,0,0.5);
+    cursor: pointer;
+    color: #000;
+    left: 231px;
+    font-size: 10px;
+    text-align: right;
+    text-transform: uppercase;
+    padding-top: 4px;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.mc-sidebar:hover {
+    background: rgba(0,0,0,0.8);
+    color: #ffd62c;
+}
+
+.sidebar-module #mc_embed_signup {
+    height: 40px;
+}
+
+.sidebar-module .mc-field-group input {
+    padding-right: 85px;
+}
