@@ -4,7 +4,7 @@
 
 	<?php include(locate_template('partials/sidebar/newsletter-form.php'));?>
 
-	<?php include(locate_template('partials/sidebar/ad-block.php')); ?>
+	<?php // include(locate_template('partials/sidebar/ad-block.php')); ?>
 
 	<?php
 		$type = 'category';
@@ -37,6 +37,6 @@
 	</div>
 	<?php endif; ?>
 
-	<?php include(locate_template('partials/sidebar/ad-block-2.php')); ?>
+	<?php // include(locate_template('partials/sidebar/ad-block-2.php')); ?>
 
 </aside>
