@@ -10,14 +10,14 @@ get_header(); ?>
 
     <div class="column medium-8 home-featured-posts page-content">
 
-        <h2 class="category-title">All Posts</h2>
+        <h2 class="category-title"><?php echo get_queried_object()->cat_name ?></h2>
 
         <?php if (have_posts()) : while (have_posts()) : the_post();
 
             $title = get_the_title();
             $excerpt = get_post_meta(get_the_ID(), '_yoast_wpseo_metadesc', true);
             $permalink = get_permalink();
-            $thumbnail = catch_first_image( get_the_ID() );
+            $thumbnail = catch_first_image(get_the_ID());
             $date = get_the_time( 'l, n M', $post->ID );
             $author_id = $post->post_author;
             $author_nickname = get_the_author_meta('nickname', $author_id);
