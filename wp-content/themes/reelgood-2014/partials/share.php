@@ -6,7 +6,7 @@
     'theme' : 'transparent',
     'share' : {
       'position' : 'left',
-      'services' : 'facebook,twitter,email',
+      'services' : 'facebook,twitter,email,google_plusone',
     }
   });
 </script>
